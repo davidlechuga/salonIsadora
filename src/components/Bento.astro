@@ -1,0 +1,98 @@
+---
+import BentoItem from './BentoItem.astro';
+---
+
+<section
+    class={`
+    w-full max-w-[1400px]
+    mx-auto p-20
+    grid grid-cols-10 auto-rows-[35rem] gap-4
+    `}
+>
+    <BentoItem 
+        class="col-span-10 md:col-span-4" 
+        title="Eventos Familiares, y Sociales" 
+        subtitle="10 de noviembre 2023"
+    >
+        <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0  h-full
+            w-full group-hover:scale-105 transition-scale duration-1000 ease-in-out 
+            opacity-60 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/amplio3.jpeg')"
+        >
+
+        </div>
+    
+        <p slot="content" class="max-w-xl">
+            El evento de Liz fue un evento para celebrar su cumpleaños 55,
+            en el cual se reunieron todos sus amigos y familiares.
+        </p>
+    </BentoItem>
+
+    <BentoItem 
+        class="col-span-10 md:col-span-6"
+        title="Eventos de Gerenciales y de trabajo"
+        subtitle="5 de diciembre 2023"
+    >
+        <div 
+                slot="image" 
+                class="absolute left-0 top-0 bottom-0  h-full
+                w-full group-hover:scale-105 transition-scale duration-1000 ease-in-out 
+                opacity-60 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+                style="background-image: url('/aperitivos.jpeg')"
+            >
+
+            </div>
+        
+            <p slot="content" class="max-w-xl">
+                El evento de Liz fue un evento para celebrar su cumpleaños 55,
+                en el cual se reunieron todos sus amigos y familiares.
+            </p>
+    </BentoItem>
+
+
+    <BentoItem 
+        class="col-span-10 md:col-span-6"
+        title="Bautizos" 
+        subtitle="20 de noviembre 2023"
+    >
+    <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0  h-full
+            w-full group-hover:scale-105 transition-scale duration-1000 ease-in-out 
+            opacity-60 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/amplio3.jpeg')"
+        >
+
+        </div>
+    
+        <p slot="content" class="max-w-xl">
+            El evento de Liz fue un evento para celebrar su cumpleaños 55,
+            en el cual se reunieron todos sus amigos y familiares.
+        </p>
+    </BentoItem>
+
+    <BentoItem 
+        class="col-span-10 md:col-span-4"
+        title="Eventos Infantiles"
+        subtitle="10 de noviembre 2023"
+    >
+    <div 
+            slot="image" 
+            class="absolute left-0 top-0 bottom-0  h-full
+            w-full group-hover:scale-105 transition-scale duration-1000 ease-in-out 
+            opacity-60 bg-blend-luminosity bg-center bg-cover bg-no-repeat -z-10"
+            style="background-image: url('/evento-1/infantil-1.jpeg')"
+        >
+
+        </div>
+    
+        <p slot="content" class="max-w-xl">
+            El evento de Liz fue un evento para celebrar su cumpleaños 55,
+            en el cual se reunieron todos sus amigos y familiares.
+        </p>
+    </BentoItem>
+
+</section>
+
