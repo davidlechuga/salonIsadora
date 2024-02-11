@@ -5,6 +5,73 @@ import HeroContainer from "@/components/HeroContainer.astro"
 
 
 <Layout title="js" description="jd">
-    <HeroContainer img="/back1.png" >
+
+    <HeroContainer
+    img="/back1.png" >
     </HeroContainer>
+
+    
+    <main class="">
+        <h1
+        style="position: relative; bottom:300px"
+        class="mx-auto mb-10 text-wrap text-center text-4xl font-semibold tracking-wide"
+      >
+      Bienvenidos a la plataforma Oficial del <br/> <span class="text-pretty">Salon Bosque de Pinos</span>
+      </h1>
+    
+        <section
+            style="position: relative; bottom:100px"
+          class="h-[10vh] relative z-10 w-full max-w-[1400px] mx-auto my-2 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8"
+        >
+          <div id="theater-text" class="md:w-1/2 space-y-4">
+            <h1
+              class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+            >
+              lorem ipsum 2
+            </h1>
+            <p> lorem ipsum</p>
+            <p> lorem ipsum</p>
+          </div>
+          <div id="theater" class="mt-6 md:mt-0 md:w-1/2">
+            <img
+              class="object-cover w-full h-full rounded-md"
+              height={556}
+              src="/amplio1.jpeg"
+              style={{
+                aspectRatio: "812/556",
+                objectFit: "cover",
+              }}
+              width={812}
+            />
+          </div>
+        </section>
+    
+        <section
+          class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8"
+        >
+          <div id="trophies" class="mt-6 md:mt-0 md:w-1/2">
+            <img
+              class="object-cover w-full h-full rounded-md"
+              height={556}
+              src="/amplio1.jpeg"
+              style={{
+                aspectRatio: "812/556",
+                objectFit: "cover",
+              }}
+              width={812}
+            />
+          </div>
+          <div id="trophies-text" class="md:w-1/2 space-y-4">
+            <h1
+              class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+            >
+              lorem ipsum
+            </h1>
+            <p> lorem ipsum</p>
+          </div>
+        </section>
+      </main>
+
+
+
 </Layout>
