@@ -1,0 +1,17 @@
+---
+interface Props {
+    img: string
+}
+
+const { img } = Astro.props
+
+---
+
+
+<div
+    style={`clip-path: inset(0 0 65% 0); background-image: url('${img}');`}
+    class="bg-no-repeat bg-cover relative h-[90vh] w-full max-w-[100vw] absolute -bottom-31 blur-sm -z-40"
+>
+
+</div>
+
