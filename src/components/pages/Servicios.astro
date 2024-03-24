@@ -1,0 +1,116 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import HeroContainer from "@/components/HeroContainer.astro"
+import Footer from '@/components/Footer.astro';
+
+---
+
+
+<Layout title="js" description="jd">
+
+    <HeroContainer
+    img="/back1.png" >
+    </HeroContainer>
+
+    
+    <main class="">
+        <h1
+        style="position: relative; bottom:300px"
+        class="mx-auto mb-10 text-wrap text-center text-4xl font-semibold tracking-wide"
+      >
+      Bridamos mùltiples Servicios para que tu eveto <br/> <span class="text-pretty">sea un èxito </span>
+      </h1>
+    
+        <section
+            style="position: relative; bottom:100px"
+          class="h-[10vh] relative z-10 w-full max-w-[1400px] mx-auto my-2 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8"
+        >
+          <div id="theater-text" class="md:w-1/2 space-y-4">
+            <h1
+              class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+            >
+              Exquisitas Taquizas y Parrilladas
+            </h1>
+            <p> Deliciosas guarniciones </p>
+            <p> Todo tipo de corte de carne </p>
+            <p> Rica tortilla hecha a mano </p>
+          </div>
+          <div id="theater" class="mt-6 md:mt-0 md:w-1/2">
+            <img
+              class="object-cover w-full h-full rounded-md"
+              height={556}
+              src="/buffets/taquinaza-2.jpeg"
+              style={{
+                aspectRatio: "812/556",
+                objectFit: "cover",
+              }}
+              width={812}
+            />
+          </div>
+        </section>
+    
+        <section
+          class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8"
+        >
+          <div id="trophies" class="mt-6 md:mt-0 md:w-1/2">
+            <img
+              class="object-cover w-full h-full rounded-md"
+              height={556}
+              src="/buffets/eventoFormal-1.jpg"
+              style={{
+                aspectRatio: "812/556",
+                objectFit: "cover",
+              }}
+              width={812}
+            />
+          </div>
+          <div id="trophies-text" class="md:w-1/2 space-y-4">
+            <h1
+              class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+            >
+              Banquetes
+            </h1>
+            <p> Menùs con diferentes tiempos de comida.</p>
+            <p> Desayunos, comidas, y cenas que encantaràn a tu paladar. </p>
+          </div>
+         
+        </section>
+
+        <section
+          class="w-full max-w-[1400px] mx-auto my-24 gap-10 text-pretty px-6 text-left text-xl sm:px-20 flex flex-col md:flex-row items-center justify-between p-6 md:p-8"
+        >
+          <div id="trophies-text" class="md:w-1/2 space-y-4">
+            <h1
+              class="mx-auto mb-10 text-balance text-left text-3xl lg:text-5xl font-semibold tracking-wide"
+            >
+              Juegos Ifantiles
+            </h1>
+            <p> Rentar juegos inflables, Accesorios como casas, coches, pelotas, trampolines.</p>
+            <p> los mejores juegos que divertiràn y entreteneràn a los niños todo el dìa. </p>
+          </div>
+        
+          <div id="theater" class="mt-6 md:mt-0 md:w-1/2">
+            <img
+              class="object-cover w-full h-full rounded-md"
+              height={556}
+              src="/juegosInfantiles/juegosNiños-1.jpg"
+              style={{
+                aspectRatio: "812/556",
+                objectFit: "cover",
+              }}
+              width={812}
+            />
+          </div>
+        </section>
+
+        
+      </main>
+      <Footer />
+
+
+
+
+
+</Layout>
+
+
