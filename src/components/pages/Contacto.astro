@@ -1,0 +1,37 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import HeroContainer from "@/components/HeroContainer.astro"
+import Footer from '@/components/Footer.astro';
+
+---
+
+
+<Layout title="js" description="jd">
+    <HeroContainer img="/back2.png" >
+    </HeroContainer>
+
+
+<section
+class="relative z-10 mx-auto max-w-[70ch] text-pretty px-6 text-left text-xl sm:px-20" style="bottom: 18rem"
+>
+<h1
+  class="mx-auto mb-10 text-wrap text-center text-4xl font-semibold tracking-wide"
+>
+Bienvenidos a la plataforma Oficial del <br/> <span class="text-pretty">Salon Bosque de Pinos</span>
+</h1>
+
+<p class="mb-10">
+  <strong>el mejor lugar para crear tu Evento , </strong>
+  con la mejor calidad y al mejor precio. <strong>Cerca del emblemático desierto de los leones</strong>,
+  se encuentra la comunidad de Pinos, un lugar lleno de historia y tradición,
+  que se ha dedicado a la producción de productos de la región, como lo son
+  el queso, la miel, el vino, el pulque, el pan, la cerveza, el mezcal, el café,
+</p>
+
+<div class =" flex justify-center mb-5 " >
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1790.6612893908714!2d-99.2659591456686!3d19.32494683446995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdffb10554985f%3A0xbcd7f57de2915fce!2sSocial%20Bosque%20Terraza!5e0!3m2!1ses-419!2smx!4v1720235519300!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+   
+    <Footer/>
+</Layout>
